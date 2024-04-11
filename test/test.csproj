@@ -7,4 +7,9 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\fido2-net-lib\Src\Fido2.Ctap2\Fido2.Ctap2.csproj" />
+      <ProjectReference Include="..\fido2-net-lib\Src\Fido2\Fido2.csproj" />
+    </ItemGroup>
+
 </Project>
